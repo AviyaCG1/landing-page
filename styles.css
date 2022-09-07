@@ -82,6 +82,7 @@ a {
 .sign-up-button {
     background-color: #3882f6;
     color: #f9faf8;
+    font-weight: 700;
     border: none;
     border-radius: 4px;
     padding: 4px 16px;
@@ -179,8 +180,9 @@ a {
 
 .sign-up {
     display: flex;
-    justify-content: center;
-    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
     min-width: 500px;
     padding: 24px;
     background-color: #3882f6;
@@ -188,3 +190,25 @@ a {
     margin: 50px auto;
 }
 
+.title {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.text {
+    color: #e5e7eb;
+}
+
+.sign-up .sign-up-button {
+    border: 1px solid #f9faf8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 20px;
+}
